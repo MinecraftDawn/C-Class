@@ -98,11 +98,11 @@ public:
 	}
 	
 	bool checkHaveCard(){
-		bool haveCard;
 		for(int i =1;i<=52;i++){ 
 			if(! card[i].isSended())
 				return true;
 		}
+		return false;
 	}
 	
 private:	
